@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.banner h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 200;
+    z-index: 10000;
+    text-align: center;
+}
+.container {
+    z-index: 50;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container .btn {
+    margin-top: 40px;
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    margin: 50px;
+    padding: 10px 30px;
+    transition: .3s;
+}
+
+
+.container .btn:hover {
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.tempo-container {
+
+    border: 1px solid rgba(255, 255, 255, 0.336);
+}
+
+#contador {
+    color: white;
+    font-weight: 500;
+    font-size: 100px;
+    margin-right: 60px;
+    margin-left: 60px;
+    position: relative;
+}
+
+
+.barra-invi {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.342);
+}
+
+
+
+.banner .github {
+    position: absolute;
+    z-index: 5000;
+    right: 70px;
+    cursor: pointer;
+    top: 20px;
+    filter: invert(48%) sepia(100%) saturate(0%) hue-rotate(2deg) brightness(200%) contrast(200%);
+
+} 
