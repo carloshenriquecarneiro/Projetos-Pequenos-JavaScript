@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <header class="banner">
+            <h1>Cronômetro</h1>
+            <a href="https://github.com/carloshenriquecarneiro" target="_blank"><img class="github" src="cronoimage/github.svg" alt=""></a>
+            <video src="cronoimage/Pexels Videos 4552 (1).mp4" autoplay loop muted></video>
+        </header>
+        <div class="container">
+            <div class="tempo-container">
+                <h3 id="contador">00:00:00</h3>
+            </div>
+            <button onclick="start()" class="btn btnSucess">Inciar</button>
+            <button onclick="pause()" class="btn btnWarning">Pausar</button>
+            <button onclick="stop()" class="btn btnDanger">Parar</button>
+        </div>
+
+    <script src="cronometro.js"></script>
+</body>
+</html>
